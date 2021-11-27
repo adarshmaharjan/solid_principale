@@ -1,3 +1,5 @@
+// Solid pseudo code
+
 // Bad Practice
 class Journal {
     constructor() {
