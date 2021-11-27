@@ -204,7 +204,7 @@ function renderLargeRectangles(rectangles) {
 According to the code above rectangle class should substitute for the rectangle class but in the code above it only works for rectangle not for square
 
 ```
-lass Shape {
+class Shape {
     setColor(color) {
         // ...
     }
