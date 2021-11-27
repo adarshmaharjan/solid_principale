@@ -2,10 +2,10 @@
 ---
 ---
 
-### Single Responsibility Principle
+## Single Responsibility Principle
 ---
 
-Single responsibility principle is a simple principle, and it tells us that a class should have single primary responsibility and as a consequence it should only have one reason to change, That reason being somehow related to its responsibility in other words it's a bat idea to add more than one responsibility to a class.
+**Single responsibility principle** is a simple principle, and it tells us that a class should have single primary responsibility and as a consequence it should only have one reason to change, That reason being somehow related to its responsibility in other words it's a bat idea to add more than one responsibility to a class.
 
 <!--bad code example img-->
 <!-- ![Bad-practice](./images/single_res_bad_prac.png) -->
@@ -67,3 +67,4 @@ Another term we used is called separation of concerns. So separation of concern 
 Seperation of the concern is also widely used one of most popular JS libary reactjs. So in React, we solved this issue by creating container components that contain all the logic, which would then pass down the data via props to the presentational component. And with the introduction of React hooks, there's a new approach to this: using custom hooks. 
 
 The code is available to preview on *"singleResponsibilityPrincipale.js"*
+
